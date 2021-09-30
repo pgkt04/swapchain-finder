@@ -4,5 +4,5 @@
 
 namespace UTIL
 {
-	void setup_console( const char* name );
+  void setup_console( const char* name );
 }
