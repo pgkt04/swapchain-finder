@@ -18,7 +18,6 @@ void main()
   ID3D11RenderTargetView* pRenderTargetView = NULL;
   DWORD_PTR* swapchain_tbl = nullptr;
 
-  // Create D3D11 SwapChain 
   IDXGISwapChain* temp_swap_chain = nullptr;
   WNDCLASSEXA wc = {sizeof( WNDCLASSEX ), CS_CLASSDC, DXGIMsgProc, 0L, 0L, GetModuleHandleA( 0 ), NULL, NULL, NULL, NULL, "x", NULL};
   RegisterClassExA( &wc );
